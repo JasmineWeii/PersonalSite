@@ -47,14 +47,14 @@ h3 {
 }
 
 a {
-  color: #11999E;
+  color: #06623b;
   margin: 10px 20px;
   text-decoration: none;
   font-family: 'Montserrat', sans-serif;
 }
 
 a:hover {
-  color: #a8e6cf;
+  color: #1fab89;
 }
 
 p {
@@ -152,10 +152,11 @@ p {
 
 .footer-link {
   padding: 0 50px 0;
+  
 }
 
 .watermark {
-  color: #1fab89;
+  color: #06623b;
 }
 
 .btn {
