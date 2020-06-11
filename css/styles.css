@@ -1,0 +1,177 @@
+
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  background-image: linear-gradient(#fee2b3, #ffcac2);
+}
+
+h1 {
+  margin: 10px auto 10px;
+  font-family: 'Sacramento', cursive;
+  font-size: 600%;
+  color: #06623b;
+}
+
+/* hr {
+  border-style: none;
+  border-top-style: dotted;
+  border-color: #06623b;
+  border-width: 6px;
+  width: 50%;
+  padding: 20px;
+} */
+
+hr {
+  background: url('../images/general/hr-bug.png') no-repeat top center;
+  background-size: contain;
+  display:block;
+  border: 0;
+  height: 25px;
+  width: 40%;
+  padding: 20px
+}
+
+h2 {
+  margin: 10px auto 10px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 200%;
+  color: #06623b;
+  font-weight: normal;
+  line-height: 2;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #17706e;
+}
+
+a {
+  color: #11999E;
+  margin: 10px 20px;
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+}
+
+a:hover {
+  color: #a8e6cf;
+}
+
+p {
+  color: #40514E;
+  line-height: 2;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+.top-container {
+  position: relative;
+  padding-top: 50px;
+}
+
+.middle-container {
+  position: relative;
+  padding: 50px;
+}
+
+.bottom-container {
+  position: relative;
+
+}
+
+.pro {
+  text-decoration: underline;
+}
+
+.top-plant {
+  margin: 20px auto 0 auto;
+  width: 40%;
+}
+
+.bottom-plant {
+  margin: 0 auto 20px auto;
+  width: 40%;
+}
+
+.profile {
+  padding: 50px;
+}
+
+.skill-row {
+  text-align:left;
+  width:50%;
+  margin: 10px auto 50px auto;
+  line-height: 1;
+  font-size: 1em;
+  padding: 20px;
+}
+
+.hobby-row {
+  padding: 20px;
+  text-align: center;
+}
+
+.techstack-pic {
+  height: 50px;
+  width: 50px;
+  margin: 10px;
+}
+
+.general-pic {
+  height: 150px;
+  width: 150px;
+}
+
+.backend-pic {
+  height: 150px;
+  width: 150px;
+  float: left;
+  margin-right: 30px;
+  margin-top: 30px;
+}
+
+.frontend-pic {
+  height: 150px;
+  width: 150px;
+  float: right;
+  margin-left: 30px;
+  margin-top: 30px;
+}
+
+.contact-me {
+  width:50%;
+  margin: 10px auto 10px auto;
+  line-height: 1;
+  font-size: 1em;
+}
+
+
+.footer {
+  margin: 20px;
+  padding: 20px;
+}
+
+.footer-link {
+  padding: 0 50px 0;
+}
+
+.watermark {
+  color: #1fab89;
+}
+
+.btn {
+  background-color: #1fab89;
+  border-radius: 8px;
+  color: #e3fdfd;
+  padding: 8px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background-color: #a8e6cf;
+  color: #e3fdfd;
+}
+
+.hobby-pic {
+  height: 300px;
+  width: 300px;
+}
